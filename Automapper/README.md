@@ -484,7 +484,7 @@ config.AssertConfigurationIsValid();
 
 - **AutoMapper** v15.1.0 - Object-to-object mapping
 - **Microsoft.Extensions.Logging** - Logging infrastructure
-- **.NET 8.0** - Target framework
+- **.NET 10.0** - Target framework
 
 ## License
 
