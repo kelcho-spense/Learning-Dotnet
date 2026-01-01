@@ -1,0 +1,65 @@
+﻿using EFCore_WorkShop_CodeFirst.Data;
+using EFCore_WorkShop_CodeFirst.Entities;
+using Microsoft.EntityFrameworkCore;
+
+class Program
+{
+    static void Main()
+    {
+        using (var context = new BloggingContext())
+        {
+            // Ensure database is created
+            context.Database.EnsureCreated();
+
+            // Create a new User with related entities
+            var user = new User
+            {
+                Id = Guid.NewGuid(),
+                Username = "john_doe",
+                Email = "john.doe@example.com",
+                PasswordHash = "hashedpassword",    
+                IsActive = true,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            var profile = new Profile
+            {
+                Id = Guid.NewGuid(),
+                FullName = "John Doe",
+                Bio = "Tech Enthusiast",
+                AvatarUrl = "https://example.com/avatar.jpg",
+                UserId = user.Id,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            var author = new Author
+            {
+                Id = Guid.NewGuid(),
+                PenName = "TechGuru",
+                Biography = "Author of several tech blogs.",
+                UserId = user.Id,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            //context.Users.Add(user);
+            //context.Profiles.Add(profile);
+            //context.Authors.Add(author);
+            //context.SaveChanges();
+
+            Console.WriteLine("Data saved successfully!");
+
+            // Query and display added entities
+            var savedUser = context.Users
+                .Include(u => u.Profile)
+                .Include(u => u.Author)
+                .FirstOrDefault(u => u.Username == "john_doe");
+
+            Console.WriteLine($"User: {savedUser?.Username}, Profile: {savedUser?.Profile?.FullName}, Author: {savedUser?.Author?.PenName}");
+
+            // create a blog, comment, category, and associate them
+            
+    }
+}

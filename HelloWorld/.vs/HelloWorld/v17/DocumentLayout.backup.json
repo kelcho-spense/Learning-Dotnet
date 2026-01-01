@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet\\HelloWorld\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC3AD41-72D4-4A73-B094-CDBDDD8BC542}|..\\LearningLINQ\\LearningLINQ.csproj|d:\\dotnet\\learninglinq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EC3AD41-72D4-4A73-B094-CDBDDD8BC542}|..\\LearningLINQ\\LearningLINQ.csproj|d:\\dotnet\\learninglinq\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Dotnet\\LearningLINQ\\Game.cs",
+              "RelativeDocumentMoniker": "..\\LearningLINQ\\Game.cs",
+              "ToolTip": "D:\\Dotnet\\LearningLINQ\\Game.cs",
+              "RelativeToolTip": "..\\LearningLINQ\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:50:13.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dotnet\\LearningLINQ\\Program.cs",
+              "RelativeDocumentMoniker": "..\\LearningLINQ\\Program.cs",
+              "ToolTip": "D:\\Dotnet\\LearningLINQ\\Program.cs*",
+              "RelativeToolTip": "..\\LearningLINQ\\Program.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwDsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:32:52.583Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

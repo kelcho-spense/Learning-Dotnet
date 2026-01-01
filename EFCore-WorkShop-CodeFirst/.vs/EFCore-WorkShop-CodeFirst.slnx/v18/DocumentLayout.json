@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|d:\\dotnet\\efcore-workshop-codefirst\\efcore-workshop-codefirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|solutionrelative:efcore-workshop-codefirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|d:\\dotnet\\efcore-workshop-codefirst\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|solutionrelative:entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|d:\\dotnet\\efcore-workshop-codefirst\\data\\bloggingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|solutionrelative:data\\bloggingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|d:\\dotnet\\efcore-workshop-codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|d:\\dotnet\\efcore-workshop-codefirst\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|solutionrelative:entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|d:\\dotnet\\efcore-workshop-codefirst\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|d:\\dotnet\\efcore-workshop-codefirst\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|solutionrelative:entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|d:\\dotnet\\efcore-workshop-codefirst\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|solutionrelative:entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|d:\\dotnet\\efcore-workshop-codefirst\\entities\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865CD25A-007D-4D98-8EA1-A3CA8A41DE0E}|EFCore-WorkShop-CodeFirst.csproj|solutionrelative:entities\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EFCore-WorkShop-CodeFirst",
+              "DocumentMoniker": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\EFCore-WorkShop-CodeFirst.csproj",
+              "RelativeDocumentMoniker": "EFCore-WorkShop-CodeFirst.csproj",
+              "ToolTip": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\EFCore-WorkShop-CodeFirst.csproj",
+              "RelativeToolTip": "EFCore-WorkShop-CodeFirst.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-08T17:58:27.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:57:08.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BloggingContext.cs",
+              "DocumentMoniker": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Data\\BloggingContext.cs",
+              "RelativeDocumentMoniker": "Data\\BloggingContext.cs",
+              "ToolTip": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Data\\BloggingContext.cs",
+              "RelativeToolTip": "Data\\BloggingContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:45:33.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Entities\\Category.cs",
+              "ToolTip": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Category.cs",
+              "RelativeToolTip": "Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:24:20.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "Entities\\Comment.cs",
+              "ToolTip": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Comment.cs",
+              "RelativeToolTip": "Entities\\Comment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:23:39.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Blog.cs",
+              "RelativeDocumentMoniker": "Entities\\Blog.cs",
+              "ToolTip": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Blog.cs",
+              "RelativeToolTip": "Entities\\Blog.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:23:23.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "Entities\\Author.cs",
+              "ToolTip": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Author.cs",
+              "RelativeToolTip": "Entities\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:23:13.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Profile.cs",
+              "RelativeDocumentMoniker": "Entities\\Profile.cs",
+              "ToolTip": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\Profile.cs",
+              "RelativeToolTip": "Entities\\Profile.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:22:48.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "D:\\Dotnet\\EFCore-WorkShop-CodeFirst\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:22:25.352Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

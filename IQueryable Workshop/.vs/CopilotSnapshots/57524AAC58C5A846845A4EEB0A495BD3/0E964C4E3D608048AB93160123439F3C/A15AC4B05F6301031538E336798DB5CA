@@ -1,0 +1,45 @@
+﻿using IQueryable_Workshop;
+
+using (AppDbContext context = new AppDbContext())
+{
+    // Retrieve all students
+
+    // Filtering example
+    IQueryable<Student>  allStudents = context.Students
+                                        .AsQueryable()
+                                        .Where(x => x.Gender == "Male")
+                                        .Take(2);
+    Console.WriteLine("Top 2 Student Where Gender = Male");
+
+    foreach (var s in allStudents)
+    {
+        Console.WriteLine($"ID: {s.ID}, Name: {s.FirstName} {s.LastName}");
+    }
+
+    //Sorting example
+    IQueryable<Student> sortedStudents = context.Students
+                                        .AsQueryable()
+                                        .OrderByDescending(x => x.FirstName)
+                                        .ThenBy(x => x.LastName)
+                                        .Take(5);
+    Console.WriteLine("\nTop 5 Students Sorted by FirstName Descending and LastName Ascending");
+    foreach (var s in sortedStudents)
+    {
+        Console.WriteLine($"ID: {s.ID}, Name: {s.FirstName} {s.LastName}");
+    }
+
+    // aggregation example:
+    // - count
+    int totalStudents = context.Students.Count();
+    Console.WriteLine($"\nTotal Number of Students: {totalStudents}");
+
+    // - group by
+    var genderGroups = context.Students
+                            .AsQueryable()
+                            . GroupBy(s => s .Gender)  
+       // max                     
+
+
+
+//operators
+}

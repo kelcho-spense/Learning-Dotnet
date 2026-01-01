@@ -1,0 +1,14 @@
+D:\Dotnet\LearningLINQ\bin\Debug\net10.0\LearningLINQ.exe
+D:\Dotnet\LearningLINQ\bin\Debug\net10.0\LearningLINQ.deps.json
+D:\Dotnet\LearningLINQ\bin\Debug\net10.0\LearningLINQ.runtimeconfig.json
+D:\Dotnet\LearningLINQ\bin\Debug\net10.0\LearningLINQ.dll
+D:\Dotnet\LearningLINQ\bin\Debug\net10.0\LearningLINQ.pdb
+D:\Dotnet\LearningLINQ\obj\Debug\net10.0\LearningLINQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\LearningLINQ\obj\Debug\net10.0\LearningLINQ.AssemblyInfoInputs.cache
+D:\Dotnet\LearningLINQ\obj\Debug\net10.0\LearningLINQ.AssemblyInfo.cs
+D:\Dotnet\LearningLINQ\obj\Debug\net10.0\LearningLINQ.csproj.CoreCompileInputs.cache
+D:\Dotnet\LearningLINQ\obj\Debug\net10.0\LearningLINQ.dll
+D:\Dotnet\LearningLINQ\obj\Debug\net10.0\refint\LearningLINQ.dll
+D:\Dotnet\LearningLINQ\obj\Debug\net10.0\LearningLINQ.pdb
+D:\Dotnet\LearningLINQ\obj\Debug\net10.0\LearningLINQ.genruntimeconfig.cache
+D:\Dotnet\LearningLINQ\obj\Debug\net10.0\ref\LearningLINQ.dll

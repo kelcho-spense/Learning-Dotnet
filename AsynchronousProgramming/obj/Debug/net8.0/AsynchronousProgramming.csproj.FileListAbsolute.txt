@@ -1,0 +1,14 @@
+D:\Dotnet\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.exe
+D:\Dotnet\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.deps.json
+D:\Dotnet\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.runtimeconfig.json
+D:\Dotnet\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.dll
+D:\Dotnet\AsynchronousProgramming\bin\Debug\net8.0\AsynchronousProgramming.pdb
+D:\Dotnet\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.AssemblyInfoInputs.cache
+D:\Dotnet\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.AssemblyInfo.cs
+D:\Dotnet\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.csproj.CoreCompileInputs.cache
+D:\Dotnet\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.dll
+D:\Dotnet\AsynchronousProgramming\obj\Debug\net8.0\refint\AsynchronousProgramming.dll
+D:\Dotnet\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.pdb
+D:\Dotnet\AsynchronousProgramming\obj\Debug\net8.0\AsynchronousProgramming.genruntimeconfig.cache
+D:\Dotnet\AsynchronousProgramming\obj\Debug\net8.0\ref\AsynchronousProgramming.dll

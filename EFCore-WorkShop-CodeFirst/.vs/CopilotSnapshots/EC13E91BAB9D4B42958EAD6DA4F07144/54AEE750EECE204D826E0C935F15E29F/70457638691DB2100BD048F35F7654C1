@@ -1,0 +1,162 @@
+﻿using EFCore_WorkShop_CodeFirst.Data;
+using EFCore_WorkShop_CodeFirst.Entities;
+using Microsoft.EntityFrameworkCore;
+
+class Program
+{
+    static void Main()
+    {
+        using (var context = new BloggingContext())
+        {
+            // Apply migrations to ensure database is up to date
+            context.Database.Migrate();
+
+            // Create a new User with related entities
+            var user = new User
+            {
+                Id = Guid.NewGuid(),
+                Username = "john_doe1",
+                Email = "john.doe1@example.com",
+                PasswordHash = "hashedpassword",    
+                IsActive = true,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            var profile = new Profile
+            {
+                Id = Guid.NewGuid(),
+                FullName = "John Doe1",
+                Bio = "Tech Enthusiast11",
+                AvatarUrl = "https://example.com/avatar.jpg",
+                UserId = user.Id,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            var author = new Author
+            {
+                Id = Guid.NewGuid(),
+                PenName = "TechGuru",
+                Biography = "Author of several tech blogs.",
+                UserId = user.Id,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            context.Users.Add(user);
+            context.Profiles.Add(profile);
+            context.Authors.Add(author);
+            context.SaveChanges();
+
+            Console.WriteLine("Data saved successfully!");
+
+            // Query and display added entities
+            var savedUser = context.Users
+                .Include(u => u.Profile)
+                .Include(u => u.Author)
+                .FirstOrDefault(u => u.Username == "john_doe");
+
+            Console.WriteLine($"User: {savedUser?.Username}, Profile: {savedUser?.Profile?.FullName}, Author: {savedUser?.Author?.PenName}");
+
+            // Create categories
+            var techCategory = new Category
+            {
+                Id = Guid.NewGuid(),
+                Name = "Technology",
+                Description = "All about technology and innovation",
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            var programmingCategory = new Category
+            {
+                Id = Guid.NewGuid(),
+                Name = "Programming",
+                Description = "Software development and programming tips",
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            context.Categories.Add(techCategory);
+            context.Categories.Add(programmingCategory);
+            context.SaveChanges();
+
+            Console.WriteLine("Categories created successfully!");
+
+            // Create a blog associated with the author and categories
+            var blog = new Blog
+            {
+                Id = Guid.NewGuid(),
+                Title = "Introduction to Entity Framework Core",
+                Content = "Entity Framework Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.",
+                Excerpt = "Learn the basics of EF Core",
+                Published = true,
+                AuthorId = author.Id,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now,
+                Categories = new List<Category> { techCategory, programmingCategory }
+            };
+
+            context.Blogs.Add(blog);
+            context.SaveChanges();
+
+            Console.WriteLine("Blog created successfully!");
+
+            // Create comments on the blog
+            var comment1 = new Comment
+            {
+                Id = Guid.NewGuid(),
+                Content = "Great article! Very informative.",
+                IsApproved = true,
+                BlogId = blog.Id,
+                UserId = user.Id,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            var comment2 = new Comment
+            {
+                Id = Guid.NewGuid(),
+                Content = "Looking forward to more posts on this topic!",
+                IsApproved = true,
+                BlogId = blog.Id,
+                UserId = user.Id,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now
+            };
+
+            context.Comments.Add(comment1);
+            context.Comments.Add(comment2);
+            context.SaveChanges();
+
+            Console.WriteLine("Comments created successfully!");
+
+            // Query and display the complete blog with all relationships
+            var blogWithDetails = context.Blogs
+                .Include(b => b.Author)
+                    .ThenInclude(a => a.User)
+                .Include(b => b.Comments)
+                    .ThenInclude(c => c.User)
+                .Include(b => b.Categories)
+                .FirstOrDefault(b => b.Id == blog.Id);
+
+            if (blogWithDetails != null)
+            {
+                Console.WriteLine("\n--- Blog Details ---");
+                Console.WriteLine($"Title: {blogWithDetails.Title}");
+                Console.WriteLine($"Author: {blogWithDetails.Author.PenName} ({blogWithDetails.Author.User.Username})");
+                Console.WriteLine($"Published: {blogWithDetails.Published}");
+                Console.WriteLine($"Categories: {string.Join(", ", blogWithDetails.Categories.Select(c => c.Name))}");
+                Console.WriteLine($"\nComments ({blogWithDetails.Comments.Count}):");
+                
+                foreach (var comment in blogWithDetails.Comments)
+                {
+                    Console.WriteLine($"  - {comment.User.Username}: {comment.Content}");
+                }
+            }
+
+            Console.WriteLine("\nAll operations completed successfully!");
+        }
+    }
+}

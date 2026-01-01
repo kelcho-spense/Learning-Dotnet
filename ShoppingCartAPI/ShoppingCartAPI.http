@@ -1,0 +1,12 @@
+@ShoppingCartAPI_HostAddress = http://localhost:5263
+
+POST {{ShoppingCartAPI_HostAddress}}/api/cart/add
+Accept: application/json
+
+{
+  "productId": 1,
+  "productName": "Laptop",
+  "price": 60000,
+  "quantity": 1
+}
+###

@@ -1,0 +1,42 @@
+
+@MyFirstWebAPIProject_HostAddress = http://localhost:5021    
+
+### Get All Products
+GET {{MyFirstWebAPIProject_HostAddress}}/api/products
+Accept: application/json
+###
+
+### Get Product with ID 1
+GET {{MyFirstWebAPIProject_HostAddress}}/api/products/1
+Accept: application/json
+###
+
+### Create a New Product (uses ProductCreateDTO)
+POST {{MyFirstWebAPIProject_HostAddress}}/api/products
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "New Product",
+    "price": 39.99,
+    "categoryId": 1
+}
+###
+
+### Update Product with ID 1 (uses ProductUpdateDTO)
+PUT {{MyFirstWebAPIProject_HostAddress}}/api/products/1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id": 1,
+    "name": "Updated Product",
+    "price": 49.99,
+    "categoryId": 1
+}
+###
+
+### Delete Product with ID 1
+DELETE {{MyFirstWebAPIProject_HostAddress}}/api/products/1
+Accept: application/json
+###

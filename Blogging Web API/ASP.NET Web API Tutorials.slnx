@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../ECommerceApp/ECommerceOrderManagementAPI.csproj" Id="50632421-7d2d-4954-bb61-0d35e8eac69b" />
+  <Project Path="../RedisCachingDemo/RedisCachingDemo.csproj" Id="73d222de-9bba-4c98-9c6b-6321ad514a83" />
+  <Project Path="../ShoppingCartAPI/ShoppingCartAPI.csproj" Id="35536405-a4c8-4a14-adf7-afe278386983" />
+  <Project Path="SmallEcommerceApi.csproj" />
+</Solution>

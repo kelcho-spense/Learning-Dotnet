@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet\\IQueryable Workshop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBA55374-2E6B-4965-8D8C-212D5B8B742C}|IQueryable Workshop\\IQueryable Workshop.csproj|d:\\dotnet\\iqueryable workshop\\iqueryable workshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA55374-2E6B-4965-8D8C-212D5B8B742C}|IQueryable Workshop\\IQueryable Workshop.csproj|solutionrelative:iqueryable workshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBA55374-2E6B-4965-8D8C-212D5B8B742C}|IQueryable Workshop\\IQueryable Workshop.csproj|d:\\dotnet\\iqueryable workshop\\iqueryable workshop\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA55374-2E6B-4965-8D8C-212D5B8B742C}|IQueryable Workshop\\IQueryable Workshop.csproj|solutionrelative:iqueryable workshop\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBA55374-2E6B-4965-8D8C-212D5B8B742C}|IQueryable Workshop\\IQueryable Workshop.csproj|d:\\dotnet\\iqueryable workshop\\iqueryable workshop\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBA55374-2E6B-4965-8D8C-212D5B8B742C}|IQueryable Workshop\\IQueryable Workshop.csproj|solutionrelative:iqueryable workshop\\appdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext .cs",
+              "DocumentMoniker": "D:\\Dotnet\\IQueryable Workshop\\IQueryable Workshop\\AppDbContext .cs",
+              "RelativeDocumentMoniker": "IQueryable Workshop\\AppDbContext .cs",
+              "ToolTip": "D:\\Dotnet\\IQueryable Workshop\\IQueryable Workshop\\AppDbContext .cs",
+              "RelativeToolTip": "IQueryable Workshop\\AppDbContext .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T18:33:31.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Dotnet\\IQueryable Workshop\\IQueryable Workshop\\Student.cs",
+              "RelativeDocumentMoniker": "IQueryable Workshop\\Student.cs",
+              "ToolTip": "D:\\Dotnet\\IQueryable Workshop\\IQueryable Workshop\\Student.cs",
+              "RelativeToolTip": "IQueryable Workshop\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T18:32:03.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dotnet\\IQueryable Workshop\\IQueryable Workshop\\Program.cs",
+              "RelativeDocumentMoniker": "IQueryable Workshop\\Program.cs",
+              "ToolTip": "D:\\Dotnet\\IQueryable Workshop\\IQueryable Workshop\\Program.cs",
+              "RelativeToolTip": "IQueryable Workshop\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T18:31:32.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
