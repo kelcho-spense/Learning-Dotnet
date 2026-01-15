@@ -1,0 +1,6 @@
+﻿namespace Fluent_API_Validation.Validators
+{
+    public class ProductBaseDTOValidator
+    {
+    }
+}

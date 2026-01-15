@@ -1,0 +1,16 @@
+﻿using Fluent_API_Validation.DTOs;
+using FluentValidation;
+
+namespace Fluent_API_Validation.Validators
+{
+    // Validator for ProductUpdateDTO, inherits all common rules from ProductBaseDTOValidator.
+    public class ProductUpdateDTOValidator : ProductBaseDTOValidator<ProductUpdateDTO>
+    {
+        public ProductUpdateDTOValidator() : base()
+        {
+            // ProductId validation: must be greater than 0 (specific to update operations).
+            RuleFor(p => p.ProductId)
+                .GreaterThan(0).WithMessage("ProductId must be greater than 0.");
+        }
+    }
+}

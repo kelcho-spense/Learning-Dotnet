@@ -1,23 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Dotnet\\Blogging Web API\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{73D222DE-9BBA-4C98-9C6B-6321AD514A83}|..\\RedisCachingDemo\\RedisCachingDemo.csproj|d:\\dotnet\\rediscachingdemo\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D222DE-9BBA-4C98-9C6B-6321AD514A83}|..\\RedisCachingDemo\\RedisCachingDemo.csproj|d:\\dotnet\\rediscachingdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D222DE-9BBA-4C98-9C6B-6321AD514A83}|..\\RedisCachingDemo\\RedisCachingDemo.csproj|d:\\dotnet\\rediscachingdemo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D222DE-9BBA-4C98-9C6B-6321AD514A83}|..\\RedisCachingDemo\\RedisCachingDemo.csproj|d:\\dotnet\\rediscachingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D222DE-9BBA-4C98-9C6B-6321AD514A83}|..\\RedisCachingDemo\\RedisCachingDemo.csproj|d:\\dotnet\\rediscachingdemo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -25,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,79 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Dotnet\\RedisCachingDemo\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\RedisCachingDemo\\appsettings.json",
-              "ToolTip": "D:\\Dotnet\\RedisCachingDemo\\appsettings.json",
-              "RelativeToolTip": "..\\RedisCachingDemo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-30T08:51:57.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\Dotnet\\RedisCachingDemo\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "..\\RedisCachingDemo\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\Dotnet\\RedisCachingDemo\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "..\\RedisCachingDemo\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwKQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T08:28:45.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Dotnet\\RedisCachingDemo\\Program.cs",
-              "RelativeDocumentMoniker": "..\\RedisCachingDemo\\Program.cs",
-              "ToolTip": "D:\\Dotnet\\RedisCachingDemo\\Program.cs",
-              "RelativeToolTip": "..\\RedisCachingDemo\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T08:09:49.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Dotnet\\RedisCachingDemo\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\RedisCachingDemo\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Dotnet\\RedisCachingDemo\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\RedisCachingDemo\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T08:05:57.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Dotnet\\RedisCachingDemo\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "..\\RedisCachingDemo\\Models\\Product.cs",
-              "ToolTip": "D:\\Dotnet\\RedisCachingDemo\\Models\\Product.cs",
-              "RelativeToolTip": "..\\RedisCachingDemo\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T08:05:26.63Z",
-              "EditorCaption": ""
             }
           ]
         }

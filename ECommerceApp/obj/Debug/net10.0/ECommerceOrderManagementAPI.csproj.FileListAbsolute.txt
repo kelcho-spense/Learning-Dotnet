@@ -283,3 +283,4 @@ D:\Dotnet\ECommerceApp\obj\Debug\net10.0\ref\ECommerceOrderManagementAPI.dll
 D:\Dotnet\ECommerceApp\bin\Debug\net10.0\Castle.Core.dll
 D:\Dotnet\ECommerceApp\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Proxies.dll
 D:\Dotnet\ECommerceApp\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Dotnet\ECommerceApp\obj\Debug\net10.0\ECommerceOrderManagementAPI.sourcelink.json

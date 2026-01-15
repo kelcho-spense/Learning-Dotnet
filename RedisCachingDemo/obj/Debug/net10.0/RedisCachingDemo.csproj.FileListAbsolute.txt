@@ -169,3 +169,4 @@ D:\Dotnet\RedisCachingDemo\obj\Debug\net10.0\RedisCachingDemo.pdb
 D:\Dotnet\RedisCachingDemo\obj\Debug\net10.0\RedisCachingDemo.genruntimeconfig.cache
 D:\Dotnet\RedisCachingDemo\obj\Debug\net10.0\ref\RedisCachingDemo.dll
 D:\Dotnet\RedisCachingDemo\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Dotnet\RedisCachingDemo\obj\Debug\net10.0\RedisCachingDemo.sourcelink.json

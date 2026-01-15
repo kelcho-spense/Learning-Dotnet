@@ -35,4 +35,6 @@ D:\Dotnet\Blogging Web API\obj\Debug\net10.0\refint\SmallEcommerceApi.dll
 D:\Dotnet\Blogging Web API\obj\Debug\net10.0\SmallEcommerceApi.pdb
 D:\Dotnet\Blogging Web API\obj\Debug\net10.0\SmallEcommerceApi.genruntimeconfig.cache
 D:\Dotnet\Blogging Web API\obj\Debug\net10.0\ref\SmallEcommerceApi.dll
-D:\Dotnet\Blogging Web API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Dotnet\Blogging Web API\obj\Debug\net10.0\SmallEcommerceApi.sourcelink.json
+D:\Dotnet\Blogging Web API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+D:\Dotnet\Blogging Web API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll

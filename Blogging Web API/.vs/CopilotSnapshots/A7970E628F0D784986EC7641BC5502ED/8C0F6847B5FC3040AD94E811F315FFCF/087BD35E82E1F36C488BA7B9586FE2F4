@@ -1,0 +1,93 @@
+﻿using Fluent_API_Validation.Data;
+using Fluent_API_Validation.DTOs;
+using FluentValidation;
+using Microsoft.EntityFrameworkCore;
+
+namespace Fluent_API_Validation.Validators
+{
+    /// <summary>
+    /// Base validator for ProductBaseDTO containing all common validation rules.
+    /// Supports async validation for database checks.
+    /// </summary>
+    public class ProductBaseDTOValidator<T> : AbstractValidator<T> where T : ProductBaseDTO
+    {
+        protected readonly ECommerceDbContext _context;
+
+        public ProductBaseDTOValidator(ECommerceDbContext context)
+        {
+            _context = context;
+
+            // SKU validation: must not be empty, match regex, and be unique
+            RuleFor(p => p.SKU)
+                .NotEmpty().WithMessage("SKU is required.")
+                .Matches("^[A-Z0-9]{8}$").WithMessage("SKU must be 8 characters long and contain only uppercase letters and digits.")
+                .MustAsync(BeUniqueSKUAsync).WithMessage("SKU must be unique.");
+
+            // Name validation: must not be empty, proper length, and be unique
+            RuleFor(p => p.Name)
+                .NotEmpty().WithMessage("Product name is required.")
+                .Length(3, 50).WithMessage("Product name must be between 3 and 50 characters.")
+                .MustAsync(BeUniqueNameAsync).WithMessage("Product name must be unique.");
+
+            // Price validation: must be greater than 0 and conform to precision and scale
+            RuleFor(p => p.Price)
+                .GreaterThan(0).WithMessage("Price must be greater than 0.")
+                .PrecisionScale(8, 2, true).WithMessage("Price must have at most 8 digits in total and 2 decimals.");
+
+            // Stock validation: must be zero or positive
+            RuleFor(p => p.Stock)
+                .GreaterThanOrEqualTo(0).WithMessage("Stock cannot be negative.");
+
+            // CategoryId validation: must be a positive number
+            RuleFor(p => p.CategoryId)
+                .GreaterThan(0).WithMessage("Category ID is required.");
+
+            // Description validation: if provided, must not exceed 500 characters
+            RuleFor(p => p.Description)
+                .MaximumLength(500).WithMessage("Description cannot exceed 500 characters.")
+                .When(p => !string.IsNullOrEmpty(p.Description));
+
+            // Discount validation: must be between 0 and 100
+            RuleFor(p => p.Discount)
+                .InclusiveBetween(0, 100).WithMessage("Discount must be between 0 and 100.");
+
+            // Manufacturing date validation: must not be a future date
+            RuleFor(p => p.ManufacturingDate)
+                .LessThanOrEqualTo(DateTime.Now).WithMessage("Manufacturing date cannot be in the future.");
+
+            // Expiry date validation: must be later than the manufacturing date
+            RuleFor(p => p.ExpiryDate)
+                .GreaterThan(p => p.ManufacturingDate).WithMessage("Expiry date must be after the manufacturing date.");
+
+            // Tags validation: each tag must not be empty and not exceed 20 characters
+            RuleForEach(p => p.Tags).ChildRules(tag =>
+            {
+                tag.RuleFor(t => t)
+                    .NotEmpty().WithMessage("Tag cannot be empty.")
+                    .MaximumLength(20).WithMessage("Tag cannot exceed 20 characters.");
+            });
+        }
+
+        /// <summary>
+        /// Checks asynchronously that the SKU is unique in the database.
+        /// Override in derived classes to exclude current product during updates.
+        /// </summary>
+        protected virtual async Task<bool> BeUniqueSKUAsync(string sku, CancellationToken cancellationToken)
+        {
+            return !await _context.Products
+                .AsNoTracking()
+                .AnyAsync(p => p.SKU == sku, cancellationToken);
+        }
+
+        /// <summary>
+        /// Checks asynchronously that the product name is unique in the database.
+        /// Override in derived classes to exclude current product during updates.
+        /// </summary>
+        protected virtual async Task<bool> BeUniqueNameAsync(string name, CancellationToken cancellationToken)
+        {
+            return !await _context.Products
+                .AsNoTracking()
+                .AnyAsync(p => p.Name == name, cancellationToken);
+        }
+    }
+}
